@@ -281,6 +281,13 @@ select*from poems;
 
 
 
+EER DIAGRAM
+
+![EER - KK](https://user-images.githubusercontent.com/93571060/159677607-594cd4cf-c029-4df3-be94-affc1c567d6b.png)
+
+ER DIAGRAM
+
+![er-kiddy kids](https://user-images.githubusercontent.com/93571060/159677995-c23258b8-0ff1-49ab-8b33-371ab6dfd87e.png)
 
 
 
