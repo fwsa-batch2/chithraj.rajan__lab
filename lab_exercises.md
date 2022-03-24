@@ -262,7 +262,7 @@ Feature 15: Find Class for the given student email id.
 ```
 Feature 17: Display all students name with class - include both enrolled and not enrolled.
 ```
----
+
 ```
 mysql> SELECT students.name,student_class.class FROM students LEFT JOIN student_class ON students.id=student_class.student_id;
 ```
