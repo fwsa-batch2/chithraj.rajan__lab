@@ -274,3 +274,5 @@ mysql> SELECT students.name,student_class.class FROM students LEFT JOIN student_
 | kumar              |     5 |
 | saravanan          |     6 |
 | Anuston            |     5 |
+
+---
