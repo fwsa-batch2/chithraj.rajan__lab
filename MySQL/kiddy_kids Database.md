@@ -322,7 +322,7 @@ desc fun_zone;
 | game_id   | int         | NO   | PRI | NULL    | auto_increment |
 | game_name | varchar(30) | NO   |     | NULL    |                |
 
-```
+
 ```
 alter table fun_zone add column game_type varchar(50) not null unique;
 ```
@@ -362,7 +362,7 @@ select * from fun_zone;
 |       4 | candy_crash  | puzzle    |
 |       5 | space_fire   | adventure |
 
-
+---
 
 
 EER DIAGRAM
