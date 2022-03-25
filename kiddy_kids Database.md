@@ -278,6 +278,39 @@ select*from poems;
 |       6 | The_eagle       | 0x68747470733A2F2F64726976652E676F6F676C652E636F6D2F66696C652F642F316C39695364647949534C75794656644C6E36734D765F76776E4279494A46746C2F766965773F7573703D73686172696E67 | 0x68747470733A2F2F7777772E796F75747562652E636F6D2F77617463683F763D474C516F73372D5671384D | 2021-12-27  |       6 |
 |       7 | The_crocodile   | 0x68747470733A2F2F64726976652E676F6F676C652E636F6D2F66696C652F642F316C39695364647949534C75794656644C6E36734D765F76776E4279494A46746C2F766965773F7573703D73686172696E67 | 0x68747470733A2F2F7777772E796F75747562652E636F6D2F77617463683F763D474C516F73372D5671384D | 2021-12-28  |       7 |
 ---
+```
+create table comics(comic_id int auto_increment primary key,comic_name varchar(50) not null unique, languages varchar(50) default 'english',genre varchar(30) not null, upload_date date not null);
+```
+```
+mysql> desc comics;
+```
+
+| Field       | Type        | Null | Key | Default | Extra          |
+|:-----------:|:-----------:|:----:|:---:|:-------:|:--------------:|
+| comic_id    | int         | NO   | PRI | NULL    | auto_increment |
+| comic_name  | varchar(50) | NO   | UNI | NULL    |                |
+| languages   | varchar(50) | YES  |     | english |                |
+| genre       | varchar(30) | NO   |     | NULL    |                |
+| upload_date | date        | NO   |     | NULL    |                |
+
+```
+alter table comics auto_increment = 111;
+```
+
+```
+insert into comics values (null, 'Archie_Comics',default,'fantasy','2021-12-25'),(null, 'Sonic_the_Hedgehog',default,'humour','2021-12-29'),(null, 'The_Avengers',default,'humour','2022-01-02'),(null, 'Justice_League_Unlimited',default,'humour','2022-01-10'),(null, 'TINY_TITANS',default,'fantasy','2022-01-18');
+```
+```
+select * from comics;
+```
+| comic_id | comic_name               | languages | genre   | upload_date |
+|:--------:|:------------------------:|:---------:|:-------:|:-----------:|
+|      111 | Archie_Comics            | english   | fantasy | 2021-12-25  |
+|      112 | Sonic_the_Hedgehog       | english   | action  | 2021-12-29  |
+|      113 | The_Avengers             | english   | action  | 2022-01-02  |
+|      114 | Justice_League_Unlimited | english   | action  | 2022-01-10  |
+|      116 | TINY_TITANS              | english   | fantasy | 2022-01-18  |
+
 
 
 
@@ -288,6 +321,9 @@ EER DIAGRAM
 ER DIAGRAM
 
 ![er-kiddy kids](https://user-images.githubusercontent.com/93571060/159677995-c23258b8-0ff1-49ab-8b33-371ab6dfd87e.png)
+
+
+
 
 
 
