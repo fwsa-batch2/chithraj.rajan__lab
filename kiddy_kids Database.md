@@ -311,6 +311,57 @@ select * from comics;
 |      114 | Justice_League_Unlimited | english   | action  | 2022-01-10  |
 |      116 | TINY_TITANS              | english   | fantasy | 2022-01-18  |
 
+```
+create table fun_zone (game_id int primary key auto_increment,game_name varchar(30) not null );
+```
+```
+desc fun_zone;
+```
+| Field     | Type        | Null | Key | Default | Extra          |
+|:---------:|:-----------:|:----:|:---:|:-------:|:--------------:|
+| game_id   | int         | NO   | PRI | NULL    | auto_increment |
+| game_name | varchar(30) | NO   |     | NULL    |                |
+
+```
+```
+alter table fun_zone add column game_type varchar(50) not null unique;
+```
+```
+desc fun_zone;
+```
+
+| Field     | Type        | Null | Key | Default | Extra          |
+|:---------:|:-----------:|:----:|:---:|:-------:|:--------------:|
+| game_id   | int         | NO   | PRI | NULL    | auto_increment |
+| game_name | varchar(30) | NO   |     | NULL    |                |
+| game_type | varchar(50) | NO   | UNI | NULL    |                |
+
+```
+insert into fun_zone values (null,'santa_run','running');
+```
+```
+insert into fun_zone values (null,'zombi_strike','shooting');
+```
+```
+insert into fun_zone values (null,'car_rush','racing');
+```
+```
+insert into fun_zone values (null,'candy_crash','puzzle');
+```
+```
+insert into fun_zone values (null,'space_fire','adventure');
+```
+```
+select * from fun_zone;
+```
+| game_id | game_name    | game_type |
+|:-------:|:------------:|:---------:|
+|       1 | santa_run    | running   |
+|       2 | zombi_strike | shooting  |
+|       3 | car_rush     | racing    |
+|       4 | candy_crash  | puzzle    |
+|       5 | space_fire   | adventure |
+
 
 
 
