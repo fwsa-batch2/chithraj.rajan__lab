@@ -475,7 +475,8 @@ EER DIAGRAM
 
 ER DIAGRAM
 
-![er-kiddy kids](https://user-images.githubusercontent.com/93571060/159677995-c23258b8-0ff1-49ab-8b33-371ab6dfd87e.png)
+![er-kiddy kids (1)](https://user-images.githubusercontent.com/93571060/160390307-481e7d01-2c25-496b-97aa-be85f5fb622f.png)
+
 
 
 
