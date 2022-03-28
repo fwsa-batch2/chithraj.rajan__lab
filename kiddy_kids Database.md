@@ -470,7 +470,8 @@ select * from fun_zone;
 
 EER DIAGRAM
 
-![EER - KK](https://user-images.githubusercontent.com/93571060/159677607-594cd4cf-c029-4df3-be94-affc1c567d6b.png)
+![EER _ KK](https://user-images.githubusercontent.com/93571060/160382122-ed5dc87b-d7c9-4bf4-8837-18c9dacde424.png)
+
 
 ER DIAGRAM
 
