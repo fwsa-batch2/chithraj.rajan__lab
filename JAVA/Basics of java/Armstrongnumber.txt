@@ -1,0 +1,32 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class AmstrongNo {
+    public AmstrongNo() {
+    }
+
+    public static void main(String[] var0) {
+        short var1 = 4536;
+        int var4 = 0;
+        int var5 = 0;
+
+        int var2;
+        for(var2 = var1; var2 != 0; ++var5) {
+            var2 /= 10;
+        }
+
+        for(var2 = var1; var2 != 0; var2 /= 10) {
+            int var3 = var2 % 10;
+            var4 = (int)((double)var4 + Math.pow((double)var3, (double)var5));
+        }
+
+        if (var4 == var1) {
+            System.out.println("" + var1 + "is Amstrong Number.");
+        } else {
+            System.out.println("" + var1 + "is not Amstrong Number.");
+        }
+
+    }
+}

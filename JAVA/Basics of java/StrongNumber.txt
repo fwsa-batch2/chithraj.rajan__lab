@@ -1,0 +1,38 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+import java.util.Scanner;
+
+public class StrongNumber {
+    public StrongNumber() {
+    }
+
+    public static void main(String[] var0) {
+        int var2 = 0;
+        Scanner var5 = new Scanner(System.in);
+        System.out.println("Enter any Number");
+        int var1 = var5.nextInt();
+
+        int var4;
+        int var6;
+        for(var4 = var1; var1 > 0; var2 += var6) {
+            int var3 = var1 % 10;
+            var6 = 1;
+
+            for(int var7 = 1; var7 < var3; ++var7) {
+                var6 *= var7;
+            }
+
+            var1 /= 10;
+        }
+
+        if (var4 == var2) {
+            System.out.println("" + var2 + "Number is strong");
+        } else {
+            System.out.println("" + var2 + "Number is not strong");
+        }
+
+    }
+}

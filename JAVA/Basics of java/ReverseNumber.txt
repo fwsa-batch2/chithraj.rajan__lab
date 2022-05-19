@@ -1,0 +1,21 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+public class ReverseNumber {
+    public ReverseNumber() {
+    }
+
+    public static void main(String[] var0) {
+        int var1 = 45678;
+
+        int var2;
+        for(var2 = 0; var1 != 0; var1 /= 10) {
+            int var3 = var1 % 10;
+            var2 = var2 * 10 + var3;
+        }
+
+        System.out.println("reversed number : " + var2);
+    }
+}
