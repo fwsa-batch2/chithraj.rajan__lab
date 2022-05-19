@@ -470,14 +470,11 @@ select * from fun_zone;
 
 EER DIAGRAM
 
-![EER _ KK](https://user-images.githubusercontent.com/93571060/160575945-30a74767-0a32-4e80-ac6f-7a422087dd7b.png)
-
-
+![EER - KK](https://user-images.githubusercontent.com/93571060/159677607-594cd4cf-c029-4df3-be94-affc1c567d6b.png)
 
 ER DIAGRAM
 
-![er-kiddy kids (1)](https://user-images.githubusercontent.com/93571060/160390307-481e7d01-2c25-496b-97aa-be85f5fb622f.png)
-
+![er-kiddy kids](https://user-images.githubusercontent.com/93571060/159677995-c23258b8-0ff1-49ab-8b33-371ab6dfd87e.png)
 
 
 
