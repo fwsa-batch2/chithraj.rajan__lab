@@ -12,5 +12,6 @@
     "files.trimTrailingWhitespace": true,
     "ruby.format": "rufo",
     "ruby.useLanguageServer": true,
-    "rufo.exe": "/path/to/my/.rbenv/shims/rufo"
+    "rufo.exe": "/path/to/my/.rbenv/shims/rufo",
+    "code-runner.runInTerminal": true
 }
