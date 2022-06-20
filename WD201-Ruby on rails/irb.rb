@@ -4,4 +4,10 @@ mobile = ["redmi","realmi","Apple","Samsung"]
 
 puts mobile.length
 
-push.mobile["lava"]
+mobile.push("LAVA")
+
+puts mobile
+
+puts mobile[2]
+
+mobile.last
